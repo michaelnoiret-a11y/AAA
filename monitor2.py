@@ -80,7 +80,7 @@ timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 # Load HTML template
 
-with open("template.html", "r", encoding="utf-8") as f:
+with open("template2.html", "r", encoding="utf-8") as f:
     html = f.read()
 
 #  Replace variables in HTML {{}}   
@@ -117,7 +117,7 @@ for key, value in variables.items():
 
 # Save the final HTML
 
-output = "dashboard.html"
+output = "index2.html"
 with open(output, "w", encoding="utf-8") as f:
     f.write(html)
 
